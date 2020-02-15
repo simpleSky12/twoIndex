@@ -717,6 +717,24 @@
     </li>
 </ul>
 
+<!--底部广告-->
+<div class="bottom-ads">
+    <div class="container">
+        <img src="../img/person.png" alt="" class="person">
+        <p class="text">
+            <span>VISFFOR-WE FOR YOU</span><br>
+            <span>Roam the world. Experience a different life!</span>
+        </p>
+        <a href="javascript:;" class="join-btn">
+            Join now
+        </a>
+        <div class="code">
+            <img src="../img/touch.png" alt="">
+            <p>Scan to find more jobs</p>
+        </div>
+        <div class="close-ads"></div>
+    </div>
+</div>
 
 </body>
 </html>
@@ -770,5 +788,9 @@
 
     $(".right-tab li").eq(2).click(function () {
         $('body,html').animate({scrollTop: 0}, 1000);
+    });
+
+    $(".bottom-ads .close-ads").click(function () {
+        $(".bottom-ads").hide();
     });
 </script>

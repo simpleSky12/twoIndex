@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdc47866-2744-45bb-8dfa-23d63425681e" name="Default Changelist" comment="" />
+    <list default="true" id="cdc47866-2744-45bb-8dfa-23d63425681e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bottom-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/code-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/person.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/PC_index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/PC_index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/PC_index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/PC_index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/PC_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/PC_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/PC_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/PC_index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,20 +26,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XmKy26YxLFoM7PQTm9oqGujtjn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/Program Files/Ruby27-x64/bin/scss.bat" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,12 +78,15 @@
       <updated>1581646080165</updated>
       <workItem from="1581646081607" duration="29254000" />
       <workItem from="1581691395787" duration="7005000" />
-      <workItem from="1581742873387" duration="11673000" />
+      <workItem from="1581742873387" duration="15950000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="209" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581660722571">
@@ -85,10 +106,15 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="740" y="310" key="FileChooserDialogImpl/0.30.1920.1050/1920.99.1920.1050@0.30.1920.1050" timestamp="1581659696808" />
-    <state x="461" y="197" key="SettingsEditor" timestamp="1581753522772">
+    <state x="461" y="197" key="SettingsEditor" timestamp="1581765849823">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="461" y="197" key="SettingsEditor/0.30.1920.1050/1920.99.1920.1050@0.30.1920.1050" timestamp="1581753522772" />
+    <state x="461" y="197" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1581765849823" />
+    <state x="616" y="258" key="run.anything.popup" timestamp="1581766870380">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1581766870380" />
     <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1581746394683">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
