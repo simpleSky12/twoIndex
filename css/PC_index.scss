@@ -215,11 +215,14 @@ body {
         text-align: center;
       }
     }
-
-    .note {
-      font-size: 12px;
-      font-weight: 400;
-      color: rgba(255, 255, 255, 1);
+    .notes{
+      height: 30px;
+      overflow-y: hidden;
+      .note {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+      }
     }
   }
 
@@ -520,6 +523,12 @@ hr {
   width: 1386px;
 }
 
+.video-swiper{
+  .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 100px !important;
+  }
+
+}
 .user-video {
   width: 1370px;
   height: 565px;
@@ -537,6 +546,8 @@ hr {
     width: 100%;
   }
 }
+
+
 
 .tab-box {
   width: 1380px;

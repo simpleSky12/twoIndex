@@ -44,13 +44,34 @@
             <input type="text" placeholder="Keywords">
             <a href="javascript:;">Search</a>
         </div>
-        <p class="note">
-            2020-01-18GGentleman posted new CV
-        </p>
+        <div class="notes">
+            <div class="swiper-container note-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class="note">
+                            2020-01-18GGentleman posted new CV1
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="note">
+                            2020-01-18GGentleman posted new CV2
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <p class="note">
+                            2020-01-18GGentleman posted new CV3
+                        </p>
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
     </div>
 
     <div class="swiper">
-        <div class="swiper-container">
+        <div class="swiper-container swiperBox1">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="../img/banner.png" alt="">
@@ -226,10 +247,33 @@
 </div>
 <hr>
 
-<div class="user-video">
-    <div class="mask"></div>
-    <a class="playBtn" href="javascript:;" onclick="showUserVideo()"></a>
+<div class="video-swiper">
+    <div class="swiper-container video-swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="user-video">
+                    <div class="mask"></div>
+                    <a class="playBtn" href="javascript:;" onclick="showUserVideo()"></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="user-video">
+                    <div class="mask"></div>
+                    <a class="playBtn" href="javascript:;" onclick="showUserVideo()"></a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="user-video">
+                    <div class="mask"></div>
+                    <a class="playBtn" href="javascript:;" onclick="showUserVideo()"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
 </div>
+
 
 <!--四个tab栏切换-->
 <div class="tab-box">
@@ -747,7 +791,7 @@
 <script src="../js/swiper.min.js"></script>
 <script src="../js/jq.min.js"></script>
 <script>
-    var mySwiper = new Swiper('.swiper-container', {
+    var mySwiper = new Swiper('.swiperBox1', {
         loop: true, // 循环模式选项
         autoplay: true,
         // 如果需要分页器
@@ -755,7 +799,27 @@
             el: '.swiper-pagination',
         }
     });
+
+    var videoSwiper = new Swiper('.video-swiper', {
+        loop: true, // 循环模式选项
+        autoplay: true,
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        }
+    });
+
+    var noteSwiper = new Swiper('.note-swiper', {
+        loop: true, // 循环模式选项
+        direction : 'vertical',
+        autoplay: true
+    });
+
+
     window.onload = mySwiper;
+    window.onload = videoSwiper;
+    window.onload = noteSwiper;
+
 
     function showVideo() {
         $(".overlay").show();
