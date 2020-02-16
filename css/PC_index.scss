@@ -528,6 +528,7 @@ hr {
   background: url("../img/vedio01.png") no-repeat center;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 
   .mask {
     opacity: .4;
